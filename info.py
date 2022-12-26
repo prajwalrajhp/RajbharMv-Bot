@@ -48,8 +48,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.dog/Rkbotzbot')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001873958791))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001699469796))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', )
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://telegram.dog/rk_update')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/sd3fDrBBgt4')
 
