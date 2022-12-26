@@ -113,7 +113,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/CyniteBackup>~ Maintained by Cynite</a></b>"""
+<b><a href=https://telegram.dog/Rk_botz>~ Maintained by RK</a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -135,7 +135,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @CyniteBackup ]─────⍟</b>"""
+<b>⍟────[ @Rk_botz ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -293,7 +293,7 @@ https://t.me/CyniteBackup </code>
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
 
-ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
+ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
 
 ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ
 """
@@ -327,7 +327,7 @@ https://t.me/CyniteBackup </code>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Powered by :- @CyniteBackup
+Powered by :-  @Rk_botz
 """
 
     SPLMD = """
@@ -341,7 +341,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Powered by :- @CyniteBackup
+Powered by :- @Rk_botz
 """
     
     REQUEST_TXT = """
