@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Movieprovider')
 API_ID = int(environ.get('API_ID', '21973813'))
 API_HASH = environ.get('API_HASH', 'c578b64ac7af52f363f9e0ebfbc67923')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5973165819:AAHy10hBEiW7mtat76syPaizk4yKZWjL28c")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5833765053:AAG7sgRPQ0NV-XAM3Vg7CjXBlTvF17H0H1k")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
