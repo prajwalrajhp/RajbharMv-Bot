@@ -50,7 +50,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001873958791'))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001862900307')
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://telegram.dog/rk_update')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/sd3fDrBBgt4')
 
 # Log Channels
