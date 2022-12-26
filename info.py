@@ -32,7 +32,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5313004751').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('-1001327884100')
-auth_grp = environ.get('-1001873958791')
+auth_grp = environ.get('')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
@@ -48,8 +48,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.dog/Rkbotzbot')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', )
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001873958791'))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001862900307')
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://telegram.dog/rk_update')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/sd3fDrBBgt4')
 
