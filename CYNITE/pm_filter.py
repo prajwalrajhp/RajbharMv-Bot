@@ -555,7 +555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@movievilla99")
+            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/Rk_back_up")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -718,10 +718,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@movievilla99')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/rk_update')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://youtube.com/@movievilla99'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://youtube.com/@movievilla99')
+                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/rk_update'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rk_botz')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
@@ -1181,7 +1181,7 @@ async def advantage_spell_chok(msg):
         ),
         InlineKeyboardButton(
             text="ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ",
-            url="https://youtube.com/@movievilla99"
+            url="https://t.me/Rkbotzbot"
         )
     ],[
         InlineKeyboardButton(
