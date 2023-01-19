@@ -520,8 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🍿', url="https://t.me/rk_update")
-                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🍿', url="https://t.me/ipopcornofficialgroup")
+                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🍿', url="https://t.me/Rdx_hd_onlinee")
+                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🍿', url="https://t.me/Cynite_movies_group12")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
