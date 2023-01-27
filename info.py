@@ -42,13 +42,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Cynite_movies_group12')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Rdx_hd_onlinee')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Technical_rakesh_01')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.dog/TR_TG_47')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001783874781))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001856507861))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL',  -1001874085827))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/dulink_file_open')
