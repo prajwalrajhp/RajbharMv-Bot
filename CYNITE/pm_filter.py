@@ -520,8 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🍿', url="https://t.me/Rdx_hd_onlinee")
-                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🍿', url="https://t.me/Cynite_movies_group12")
+                    InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/Rdx_hd_onlinee")
+                  ],[InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ GᖇOᑌᑭ♻️', url="https://t.me/Cynite_movies_group12")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -556,7 +556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/Rk_back_up")
+            InlineKeyboardButton('♻️ᗷᗩᑕKᑌᑭ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/Rdx_hd_onlinee")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
