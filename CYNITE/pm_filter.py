@@ -515,10 +515,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('ᗩᗪᗪ ᗰ𝐄 𝐓𝐎 𝐘𝐎ᑌᖇ 𝐆ᖇ𝐎ᑌᑭ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('♻️ĦɆŁꝐ♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️ȺɃꝊɄȾ♻️', callback_data='about'),
                   ],[
                     InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/Rdx_hd_onlinee")
                   ],[InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ GᖇOᑌᑭ♻️', url="https://t.me/Cynite_movies_group12")
@@ -1182,7 +1182,7 @@ async def advantage_spell_chok(msg):
         ),
         InlineKeyboardButton(
             text="ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ",
-            url="https://t.me/Rkbotzbot"
+            url="https://www.telegram.dog/TG_TR_support_bot"
         )
     ],[
         InlineKeyboardButton(
