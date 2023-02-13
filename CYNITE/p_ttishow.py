@@ -28,7 +28,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+                InlineKeyboardButton('🫂𝚂𝙰𝙿𝙿𝙾𝚁𝚃🎉', url=f'https://t.me/{SUPPORT_CHAT}')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -43,8 +43,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ', url=f"https://t.me/Rdx_hd_onlinee")
+                    InlineKeyboardButton('🖥️𝚄𝙿𝙳𝙰𝚃𝙴𝚂🖥️, url=CHNL_LNK),
+                    InlineKeyboardButton('🎭𝚁𝙴𝙿𝙾𝚁𝚃 𝙷𝙴𝚁𝙴🎭', url=f"https://t.me/Rdx_hd_onlinee")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -81,7 +81,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('🫂𝚂𝙰𝙿𝙿𝙾𝚁𝚃🎉', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -120,7 +120,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('🫂𝚂𝙰𝙿𝙿𝙾𝚁𝚃🎉', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -156,7 +156,7 @@ async def re_enable_chat(bot, message):
 @Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
 async def get_ststs(bot, message):
     buttons = [[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=CHNL_LNK)
+            InlineKeyboardButton('🖥️𝚄𝙿𝙳𝙰𝚃𝙴𝚂🖥️', url=CHNL_LNK)
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     kdbotz = await message.reply('Fetching stats..')
