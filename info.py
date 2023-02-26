@@ -51,7 +51,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001856507861))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL',  -1001874085827))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/kFge7pmQRTw')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/a53lYJEdpfg')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001634572825))
@@ -80,13 +80,13 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 900))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
+DELETE_TIME = int(environ.get('DELETE_TIME', 300))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 5))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Short2Url.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c9bdae4460704bd07879a4b5b74885b64e7c8646')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'TinyFy.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '05c77f9d0e64c873086cc1459f694a967e9f1f79')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
