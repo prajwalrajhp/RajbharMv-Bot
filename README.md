@@ -53,7 +53,7 @@
 
 ## Credits 
 
-* [![Aks](https://img.shields.io/static/v1?label=KDBotz&message=Telegram&color=critical)](https://t.me/KD_Botz)
+* [![Aks](https://img.shields.io/static/v1?label=CDBotz&message=Telegram&color=critical)](https://t.me/only_Botz)
 * [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://t.me/Technical_rakesh_01)
 
 ## Deploy 
