@@ -22,9 +22,9 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('♻️ᗩᗪᗪ ᗰE TO YOᑌᖇ GᖇOᑌᑭ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/Rdx_hd_onlinee'),
+                    InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/Rdx_hd_onlinee'),
                     InlineKeyboardButton('🫂𝚂𝙰𝙿𝙿𝙾𝚁𝚃🎉', url='https://t.me/Rdx_hd_onlinee')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,10 +45,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('♻️ᗩᗪᗪ ᗰE TO YOᑌᖇ GᖇOᑌᑭ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('♻️ĦɆŁꝐ♻️', callback_data='help'),
-                    InlineKeyboardButton('♻️ȺɃꝊɄȾ♻️', callback_data='about'),
+                    InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
                   ],[
                     InlineKeyboardButton('♻️𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻♻️', url="https://t.me/Technical_rakesh_01")
                   ]]
@@ -92,12 +92,12 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('♻️ᗩᗪᗪ ᗰE TO YOᑌᖇ GᖇOᑌᑭ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('♻️ĦɆŁꝐ♻️', callback_data='help'),
-                    InlineKeyboardButton('♻️ȺɃꝊɄȾ♻️', callback_data='about'),
+                    InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('♻️𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻♻️', url="https://t.me/Technical_rakesh_01")
+                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/Technical_rakesh_01")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -150,7 +150,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
-                          InlineKeyboardButton('🙋𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻📢', url=CHNL_LNK)
+                          InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
                        ]
                         ]
                     )
@@ -167,7 +167,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
-                          InlineKeyboardButton('🙋𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻📢', url=CHNL_LNK)
+                          InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
                        ]
                         ]
                     )
@@ -236,7 +236,7 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
-                      InlineKeyboardButton('🙋𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻📢', url=CHNL_LNK)
+                      InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
                    ]
                     ]
                 )
@@ -277,7 +277,7 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
-              InlineKeyboardButton('🙋𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻📢', url=CHNL_LNK)
+              InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
            ]
             ]
         )
@@ -378,12 +378,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="YES", callback_data="autofilter_delete"
+                        text="⚡ 𝐘𝐞𝐬 ⚡", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="CANCEL", callback_data="close_data"
+                        text="❄ 𝐂𝐚𝐧𝐜𝐞𝐥 ❄", callback_data="close_data"
                     )
                 ],
             ]
