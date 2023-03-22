@@ -25,7 +25,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/Rdx_hd_onlinee'),
-                    InlineKeyboardButton('🫂𝚂𝙰𝙿𝙿𝙾𝚁𝚃🎉', url='https://t.me/Rdx_hd_onlinee')
+                    InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ 📽', url='https://t.me/Rdx_hd_onlinee')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -149,7 +149,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
+                          InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
                           InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
                        ]
                         ]
@@ -166,7 +166,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
+                          InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
                           InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
                        ]
                         ]
@@ -235,7 +235,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
+                      InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
                       InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
                    ]
                     ]
@@ -276,7 +276,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('❇️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿📢', url=GRP_LNK),
+              InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
               InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
            ]
             ]
