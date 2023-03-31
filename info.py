@@ -54,7 +54,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/a53lYJEdpfg')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001634572825))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001927936103))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001634572825))
 
 # Bot Options
