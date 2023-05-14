@@ -11,13 +11,15 @@ class script(object):
 
 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍy ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
-
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/TR_TG_47>☢ 𝗟𝗧𝗘 ☢</a></b>
-
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/Rdx_hd_onlinee> 𝗥𝗗𝗫 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 👾</a></b>
-
-<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """<b>
+‣ ᴍʏ ɴᴀᴍᴇ : {}
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Crezydevelopers'>ᴄʀᴇᴢʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​</a>
+‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
+‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
+‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a>
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
 
     SOURCE_TXT ="""<b>NOTE:
 ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ PRIVATE ᴘʀᴏᴊᴇᴄᴛ
