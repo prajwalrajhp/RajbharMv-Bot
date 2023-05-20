@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6078678678:AAEO9PTkYcYaw4u0fPsr8IdD2DlZ-l1
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/23fd6057f6ce013284277.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/51e03f3a4ab597635e09a.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/363a1d552aac5aabc46d7.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b60d2facc538ad82ad22d.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/d25f2895cb100c5c1c6f4.jpg")
@@ -42,7 +42,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "crezyboter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://telegram.dog/TR_TG_47')
+GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/mvisland')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_island8')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/RajbharMvSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
