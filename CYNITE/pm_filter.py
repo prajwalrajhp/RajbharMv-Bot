@@ -520,8 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('♻️ĦɆŁꝐ♻️', callback_data='help'),
                     InlineKeyboardButton('♻️ȺɃꝊɄȾ♻️', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/Rdx_hd_onlinee")
-                  ],[InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ GᖇOᑌᑭ♻️', url="https://t.me/Cynite_movies_group12")
+                    InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/movies_island8")
+                  ],[InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ GᖇOᑌᑭ♻️', url="https://t.me/searchmoviesname")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -719,10 +719,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Technical_rakesh_01')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/movies_island8')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Technical_rakesh_01'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rdx_hd_onlinee')
+                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/rajbharmvsupport'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/movies_island8')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
