@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/Rdx_hd_onlinee'),
-                    InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ 📽', url='https://t.me/Rdx_hd_onlinee')
+                    InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/movies_island8'),
+                    InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ 📽', url='https://t.me/rajbharmvsupport')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -50,7 +50,7 @@ async def start(client, message):
                     InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
                     InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/Technical_rakesh_01")
+                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/movies_island8")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
                     InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/Technical_rakesh_01")
+                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url="https://t.me/movies_island8")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
