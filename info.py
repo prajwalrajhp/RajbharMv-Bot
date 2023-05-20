@@ -42,16 +42,16 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "crezyboter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/RajbharMvSupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Technical_rakesh_01')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.dog/TR_TG_47')
+GRP_LNK = environ.get('GRP_LNK', 'https://telegram.dog/TR_TG_47')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_island8')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/RajbharMvSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001885372079))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL',  -1001675532390))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/a53lYJEdpfg')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mvisland/428')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001930913574))
@@ -68,7 +68,7 @@ CYNITE_IMDB_TEMPLATE = environ.get("CYNITE_IMDB_TEMPLATE", "<b><b>🏷 Tɪᴛʟ�
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
-INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', -1001675532390))
+INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
