@@ -149,8 +149,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
-                          InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+                          InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url='https://t.me/movies_island8'),
+                          InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url='https://t.me/mvisland')
                        ]
                         ]
                     )
@@ -166,8 +166,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
-                          InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+                          InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url='https://t.me/movies_island8'),
+                          InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url='https://t.me/mvisland')
                        ]
                         ]
                     )
@@ -235,8 +235,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
-                      InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+                      InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url='https://t.me/movies_island8'),
+                      InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url='https://t.me/mvisland')
                    ]
                     ]
                 )
@@ -276,8 +276,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url=GRP_LNK),
-              InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+           InlineKeyboardButton('📡 SUᎮᎮԾᏒϮ GᏒԾUᎮ 📽', url='https://t.me/movies_island8'),
+           InlineKeyboardButton('🔥 UᎮDΛTΞS CHΛИИΞL 🔥', url='https://t.me/mvisland')
            ]
             ]
         )
