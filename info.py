@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Movieprovider')
-API_ID = int(environ.get('API_ID', '16217735'))
-API_HASH = environ.get('API_HASH', '445a16e1f1554cc189673c6be5f5a72f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6078678678:AAEO9PTkYcYaw4u0fPsr8IdD2DlZ-l1HWy8")
+API_ID = int(environ.get('API_ID', '14175941'))
+API_HASH = environ.get('API_HASH', '95c18a1b2ab8d932a95c15182ac2323d')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5408155242:AAF-PUTEumPuWX1Eyc1z2YTQ0Q0rZNWRSZk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,9 +27,9 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b60d2facc538ad82ad
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/d25f2895cb100c5c1c6f4.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5570163408 5494151843 5838674798').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', ' -1001675532390').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5570163408 5494151843 5838674798').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1511468725 5494151843 5838674798').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', ' -1001840476165').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1511468725 5494151843 5838674798').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('')
 auth_grp = environ.get('')
@@ -37,7 +37,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RAJBHAR:RAJBHAR@cluster0.pro6d6k.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nejot19048:R8dtclyDQVaL@cluster0.x5cbzoh.mongodb.net/? retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "crezyboter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -49,13 +49,13 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001885372079))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL',  -1001675532390))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL',  -1001840476165))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mvisland/428')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001930913574))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001930913574))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001928522177))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001928522177))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
